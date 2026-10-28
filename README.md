@@ -56,6 +56,7 @@ Everything runs on the device. There's no account, no network access, no analyti
 
 Read the full [privacy policy](https://mr3entley.github.io/VTS/privacy.html) or visit [support](https://mr3entley.github.io/VTS/support.html).
 
+
 ## Printing for accurate size
 
 1. Print at **100% scale** (not "fit to page"), one page per sheet.
