@@ -65,7 +65,3 @@ Read the full [privacy policy](https://mr3entley.github.io/VTS/privacy.html) or 
 ## Disclaimer
 
 Vision Therapy Suite makes printable worksheets for vision therapy done under the direction of an eye care professional. It doesn't diagnose, measure or treat anything, and it's no substitute for professional advice.
-
-## License
-
-© 2026 Jeffrey Bentley. All rights reserved.
