@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mr3ENTLEY/VTS/main/Untitled%20design.png">
-      <img src="Untitled design.png" alt="Vision Therapy Suite icon" width="128" height="128">
+      <img src="Untitled design-2.png" alt="Vision Therapy Suite icon" width="128" height="128">
   </picture>
 </p>
 
