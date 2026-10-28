@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="VisionTherapySuite/Assets.xcassets/AppIcon.appiconset/Untitled%20design.png">
-    <img src="VisionTherapySuite/Assets.xcassets/AppIcon.appiconset/Untitled%20design-2.png" alt="Vision Therapy Suite icon" width="128" height="128">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mr3ENTLEY/VTS/main/Untitled%20design.png">
+      <img src="https://raw.githubusercontent.com/Mr3ENTLEY/VTS/main/Untitled%20design-2.png" alt="Vision Therapy Suite icon" width="128" height="128">
   </picture>
 </p>
 
