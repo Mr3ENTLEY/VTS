@@ -61,69 +61,6 @@ Read the full [privacy policy](https://mr3entley.github.io/VTS/privacy.html) or 
 1. Print at **100% scale** (not "fit to page"), one page per sheet.
 2. Measure the **50 mm bar** in the footer with a ruler. If it's 50 mm, every character on the sheet is true to size.
 
-## Getting started
-
-### Requirements
-
-| | |
-| --- | --- |
-| Xcode | 27 or later |
-| Deployment target | iOS 17.6, iPhone and iPad |
-| Language | Swift 5 mode, SwiftUI, Observation, Swift Testing |
-| Dependencies | None. Apple frameworks only. |
-
-### Build and run
-
-```bash
-git clone https://github.com/<your-account>/<this-repo>.git
-cd <this-repo>
-open VisionTherapySuite.xcodeproj
-```
-
-Pick a simulator or device, then press **⌘R**. Run the tests with **⌘U**.
-
-## Project layout
-
-```
-VisionTherapySuite/
-├── App/          Entry point, launch screen, tab bar
-├── Brand/        Design tokens and styled components
-├── Core/         Chart codes, seeded RNG, history, units, storage
-├── Export/       Share settings, share codes, PDF export flow
-├── Home/         Home tab, recent charts, About
-├── Metronome/    Audio engine, sounds and controls
-├── PDF/          Page geometry, headers, footers, cover page, rendering
-├── Present/      Full-screen Present mode
-├── Shared/       Generator scaffold, settings cards, preview, Share card
-├── SlapTap/      Slap Tap generator, model, glyphs, sheet, screen
-└── VisualChart/  Visual Chart generator, model, layout, near cards, screen
-VisionTherapySuiteTests/   Swift Testing suites
-```
-
-Small files, one job each. The generators and code parsers are pure Swift, so they're quick to test.
-
-For how everything works under the hood (chart codes, true-size layout, the PDF pipeline, the metronome scheduler and how to add a new generator), see **[DEVELOPMENT.md](DEVELOPMENT.md)**.
-
-## How chart codes work
-
-A chart code describes the sheet. It never describes the patient.
-
-```
-V3L2B12.5OG-1042-P10C
-││││││   ││ │    └─ share settings: a 10-sheet packet (P10) with a cover (C)
-││││││   ││ └─ chart number: seeds the characters
-││││││   │└─ G: grid lines on
-││││││   └─ O: border on
-│││││└─ character height: 12.5 mm
-││││└─ weight: B for bold
-│││└─ charts per page: 2
-││└─ content: L for letters
-│└─ grid: 3×3
-└─ V: Visual Chart
-```
-
-Characters come from a seeded random generator (SplitMix64 with its own shuffle), so the same number always draws the same chart on every device and every version. Settings that are left at their defaults are left out of the code, which keeps codes short.
-
 ## Disclaimer
 
 Vision Therapy Suite makes printable worksheets for vision therapy done under the direction of an eye care professional. It doesn't diagnose, measure or treat anything, and it's no substitute for professional advice.
