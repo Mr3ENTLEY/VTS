@@ -16,8 +16,6 @@
 
 Vision Therapy Suite makes printable worksheets for optometrists and vision therapists. Pick your settings, tap **New Chart**, and print a sheet that's sized to the millimetre and different every time. Every chart has a short code on it, so you can bring back the exact same sheet, settings and all, whenever you need it.
 
-No photocopying the same worn-out chart. No accounts. No cloud. Just charts.
-
 ## Features
 
 ### Visual Chart (Hart-style)
