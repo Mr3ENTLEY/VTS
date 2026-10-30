@@ -2,7 +2,7 @@
 
 <h1 align="center">Vision Therapy Suite</h1>
 
-<p align="center"><strong>True-size therapy charts, fresh every time.</strong></p>
+<p align="center"><strong>Printable, true size, ready in seconds!</strong></p>
 
 <p align="center">
   <img alt="iOS 17.6+" src="https://img.shields.io/badge/iOS-17.6%2B-black">
