@@ -55,3 +55,14 @@ nav a[aria-current="page"] { color: var(--text); font-weight: 600; }
 .release ul { padding-left: 20px; margin: 8px 0 0; }
 .release li { margin: 6px 0; }
 .badge { font-size: 13px; font-weight: 600; color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, transparent); border-radius: 999px; padding: 3px 10px; }
+.store { display: inline-block; background: var(--text); color: var(--bg); font-weight: 600; font-size: 16px; padding: 12px 22px; border-radius: 999px; margin-top: 8px; }
+.store:hover { text-decoration: none; opacity: 0.85; }
+.shots { display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 4px 2px 14px; margin: 8px -2px 0; -webkit-overflow-scrolling: touch; }
+.shots img { flex: none; scroll-snap-align: start; border-radius: 16px; border: 1px solid var(--line); background: var(--card); height: auto; }
+.shots.phone img { width: 200px; }
+.shots.tablet img { width: 300px; }
+@media (min-width: 760px) {
+  .shots.phone img { width: calc((100% - 42px) / 4); }
+  .shots.tablet img { width: calc((100% - 14px) / 2); }
+  .shots.tablet { flex-wrap: wrap; }
+}
