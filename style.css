@@ -47,3 +47,11 @@ summary::after { content: "+"; float: right; color: var(--muted); }
 details[open] summary::after { content: "–"; }
 details p { margin: 10px 0 0; color: var(--muted); }
 footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+nav a[aria-current="page"] { color: var(--text); font-weight: 600; }
+.release { border-top: 1px solid var(--line); padding-top: 4px; margin-top: 28px; }
+.release-head { display: flex; align-items: center; gap: 10px; margin-top: 24px; }
+.release-head h2 { margin: 0; }
+.release .date { margin: 2px 0 8px; font-size: 15px; }
+.release ul { padding-left: 20px; margin: 8px 0 0; }
+.release li { margin: 6px 0; }
+.badge { font-size: 13px; font-weight: 600; color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, transparent); border-radius: 999px; padding: 3px 10px; }
